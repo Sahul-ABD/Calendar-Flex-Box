@@ -1,0 +1,138 @@
+:root{
+  border: 20px double mediumpurple;
+ background-color: #f8efba;
+ box-sizing: border-box;
+}
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+ img {
+  width: 500em;
+  height: 500px;
+  border-radius:70%;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.header , h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+/* weak-day */
+/* .container-1{
+  display: flex;
+} */
+main{
+  
+}
+.container-1 , .container-2 , .container-3 , .container-4{
+  display: flex;
+  justify-content: space-evenly;
+}
+#coln-1,#coln-2,#coln-3,#coln-4 {
+  box-sizing: border-box;
+  width:300px;
+}
+ h2{
+  text-align: center;
+}
+.r1c1,.r2c1,.r3c1{
+  border: 5px solid skyblue;
+  
+}
+
+/* .week-days ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.3em;
+  background-color: rgba(225, 241, 154, 0.5);
+} */
+
+.row0 {
+  text-transform: uppercase;
+}
+
+.row0,
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: rgba(116, 164, 228, 0.5);
+}
+ img{
+   width: 25px;
+  height:25px;
+  margin-top: 15px ;
+  /* margin-left: 20px; */
+  position: relative;
+  left: 7px;
+}
+.image:hover{
+  transform: scale(5.5);
+}
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7 {
+  font-weight: 900;
+  /* height: inherit; */
+}
+
+.day {
+  /* background-color: red; */
+  width: 95.365px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col1 {
+  color: red;
+  font-size: 1em;
+}
+
+.small-screen {
+  visibility: hidden;
+  /* display: none; */
+}
+
+/* @media screen and (min-width: 100px) and (max-width: 654px) {
+  .big-screen {
+    display: none;
+    visibility: hidden;
+  } */
+
+  .small-screen {
+    display: flex;
+    visibility: visible;
+  }
+
+  .header > img {
+    width: 70px;
+    height: 70px;
+    /* border-radius: 50%;
+    margin-right: 1em;
+    margin-bottom: 1em; */
+  }
+
+  .header > h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+}
