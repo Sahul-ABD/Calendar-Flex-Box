@@ -28,11 +28,9 @@
   font-size: 25px;
   text-decoration: underline;
 }
-
+/* Header-Ends */
 /* weak-day */
-/* .container-1{
-  display: flex;
-} */
+/* container(1-4) */
 .container-1 , .container-2 , .container-3 , .container-4{
   display: flex;
   justify-content: space-evenly;
@@ -74,6 +72,7 @@
   margin-bottom: 10px;
   background-color: rgba(116, 164, 228, 0.5);
 }
+/* image */
  img{
    width: 25px;
   height:25px;
@@ -110,10 +109,11 @@
   font-size: 1em;
 }
 
-.small-screen {
+/* .small-screen {
   visibility: hidden;
+} */
   /* display: none; */
-}
+
 
 /* @media screen and (min-width: 100px) and (max-width: 654px) {
   .big-screen {
